@@ -117,3 +117,17 @@
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.section-title {
+  color: #e6e6e6;
+  margin: 25px 0 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.empty-msg {
+  text-align: center;
+  padding: 12px;
+  color: #9aa0aa;
+  font-size: 14px;
+}
