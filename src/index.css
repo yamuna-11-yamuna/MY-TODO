@@ -1,0 +1,30 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global background + font */
+body {
+  font-family: "Inter", sans-serif;
+  background: #0b0c10; /* pure black dashboard */
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  color: #e6e6e6;
+}
+
+/* Remove outlines */
+button:focus,
+input:focus {
+  outline: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3c8d1;
+  border-radius: 10px;
+}

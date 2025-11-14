@@ -1,0 +1,70 @@
+/* Row Layout */
+.table-row {
+  display: grid;
+  grid-template-columns: 2fr 1.4fr 1fr 1fr;
+  padding: 16px;
+  margin-top: 10px;
+  background: #1a1c20;
+  border-radius: 12px;
+  border: 1px solid #2e3034;
+  transition: 0.20s ease;
+}
+
+.table-row:hover {
+  background: #222529;
+  transform: translateY(-2px);
+}
+
+/* Completed style */
+.table-row.completed {
+  opacity: 0.7;
+}
+
+/* Text */
+.row-text {
+  color: #f1f3f5;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.row-date {
+  color: #aeb4be;
+  font-size: 14px;
+}
+
+.row-status {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.row-status.done {
+  color: #4cff88;
+}
+
+.row-status.pending {
+  color: #ffdd66;
+}
+
+/* Actions */
+.row-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  background: #27292d;
+  color: #d6d6d6;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.action-btn:hover {
+  background: #35383d;
+}
+
+.action-btn.delete:hover {
+  background: #ff4949;
+}
