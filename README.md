@@ -1,16 +1,39 @@
-# React + Vite
+MY-TODO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern To-Do App built using React + Vite.
+You can add tasks, edit them, delete them, mark them as completed, and all data is saved in LocalStorage.
 
-Currently, two official plugins are available:
+🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add new tasks
 
-## React Compiler
+Edit or delete tasks
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Mark tasks as Completed / Pending
 
-## Expanding the ESLint configuration
+Separate sections for Pending and Completed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Shows date and time for each task
+
+Saves everything automatically
+
+🚀 Run Locally
+npm install
+npm run dev
+
+
+Runs on: http://localhost:5173
+
+🧰 Tech Used
+
+React
+
+Vite
+
+CSS
+
+LocalStorage
+
+📄 About
+
+A minimal and elegant task manager built for learning and improving React UI skills.
